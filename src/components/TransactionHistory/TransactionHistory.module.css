@@ -1,0 +1,17 @@
+.transaction {
+  width: 300px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.head {
+  height: 30px;
+  background-color: rgb(44, 152, 202);
+}
+
+.rows:nth-child(even) {
+  background-color: rgb(178, 224, 228);
+}
